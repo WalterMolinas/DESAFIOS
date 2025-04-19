@@ -1,0 +1,26 @@
+#include <stdio.h>
+//Solicita la edad de una persona y clasifica en:
+//Menor de edad (<18 años)
+//Adulto (18-64 años)
+//Adulto mayor (=65 años)
+int main() {
+	int edad;
+	printf("Ingrese una edad y el algoritmo la clasificará\n");
+	scanf("%d", &edad);
+	if (edad<0){
+		printf("ERROR la edad no puede ser negativa");
+	}
+	if (edad>=120){
+		printf("ERROR, no hay registro de personas que hayan vivido tal edad");
+	}
+	if (edad>=0 && edad<18){
+		printf("Usted es Menor de edad");
+	}
+	if (edad>18 && edad<65){
+		printf("Usted es un Adulto");
+	}
+	if (edad>=65){
+		printf("Usted es un Adulto Mayor");
+	}
+	return 0;
+}
