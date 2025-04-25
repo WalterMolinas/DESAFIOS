@@ -144,3 +144,36 @@ Sirve para guardar muchos datos similares
 bajo un mismo nombre.
 ¿Cómo se declara un arreglo?
 tipo nombre[tipo nombre[tamaño];
+
+
+strcpy(destino, origen) – Copiar cadenas
+Las estructuras secuenciales son colecciones
+de datos que se almacenan de forma
+ordenada, una al lado de la otra.
+El mejor ejemplo de esto son los arreglos
+(arrays).
+
+
+strlen(cadena) – Longitud de la cadena
+Devuelve la cantidad de caracteres (sin contar
+el \0).
+
+
+strcmp(cad1, cad2) – Comparar cadenas
+Compara dos cadenas carácter por carácter.
+● Devuelve 0 si son iguales
+● Un número negativo si cad1 < cad2
+● Un número positivo si cad1 > cad2
+
+
+strcat(destino, origen) – Concatenar
+cadenas
+Compara dos cadenas carácter por carácter.
+● Devuelve 0 si son iguales
+● Un número negativo si cad1 < cad2
+● Un número positivo si cad1 > cad2
+
+
+strchr(cadena, caracter) – Buscar un
+carácter
+Busca la primera aparición de un carácter en la cadena.
