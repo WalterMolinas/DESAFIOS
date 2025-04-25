@@ -1,0 +1,146 @@
+GET CHAR Y PUTCHAR*
+GETCHA: Sirve para leer un unico caracter desde el teclado
+PUTCHAR: Sirve para imprimir un unico caracter, alternatica de printf
+
+
+¿Qué son los algoritmos? En informática?*
+Se llaman algoritmos el conjunto de instrucciones sistemáticas y previamente definidas que se utilizan para realizar una determinada tarea                                       
+
+
+GETS Y PUTS:*
+GETS: Sirve para leer una linea completsa de caracateres
+PUTS: Sirve para imprimir una cadena de caracteres
+
+#include <stdio.h> // Para funciones como printf() y scanf()
+#include <math.h> // Para usar funciones matemáticas como M_PI
+
+
+Variables*
+Una variable es un espacio en memoria que guarda un valor que puede cambiar durante la
+ejecución del programa.
+Cada variable tiene un tipo de dato que define qué tipo de información puede almacenar.
+Constantes
+Una constante es un valor que no cambia durante la ejecución del programa. Se usa la
+palabra clave const o la directiva #define para definirlas.
+
+IMPRIMIR POR PANTALLA, TIPOS DE DATOS:*
+%d Entero (int)    printf("%d", 100);
+%f Flotante (float)    printf("%.2f", 3.14);
+%lf Doble (double)    printf("%.3lf", 2.71828);
+%c Carácter (char)   printf("%c", 'A');
+%s Cadena (char[]) printf("%s", "Hola");
+
+
+Tipo Dominio (Rango de Valores)*
+int     -2,147,483,648 a 2,147,483,647 (en sistemas de 4 bytes)
+float    Aproximadamente ±3.4E-38 a ±3.4E+38
+double   Aproximadamente ±1.7E-308 a ±1.7E+308
+char    -128 a 127 (valores ASCII)
+
+
+Sentencia if*
+La sentencia if permite ejecutar un
+bloque de código sólo si una
+condición es verdadera. Si la
+condición es falsa, el código dentro
+del if no se ejecuta.
+if (condición) {
+// Código que se ejecuta si la
+condición es verdadera
+}
+
+Sentencia if-else*
+if (condición) {
+// Código si la condición es
+verdadera
+} else {
+// Código si la condición es
+falsa
+}
+
+Sentencias if-else anidados*
+Los if-else anidados permiten tomar decisiones más
+complejas dentro de un programa. Se usan cuando se necesita
+evaluar múltiples condiciones de manera jerárquica.
+Un if-else anidado ocurre cuando dentro de un if o un else
+hay otro if-else.
+Se usa para evaluar varias condiciones en un orden específico.
+if (condición1) {
+// Código si condición1 es verdadera
+if (condición2) {
+// Código si condición2 también es verdadera
+} else {
+// Código si condición2 es falsa
+}
+} else {
+// Código si condición1 es falsa
+}
+
+Sentencia switch*
+Cuando hay múltiples
+opciones, switch simplifica el
+código en lugar de usar varios
+if-else.
+switch(opcion){
+case1://CODIGO:
+break;
+case2://CODIGO;
+break;
+case3://CODIGO;
+breaK;
+default:
+}
+
+
+Sentencia for*
+La sentencia for se usa para ejecutar un bloque de código un número
+determinado de veces. A diferencia de while, donde el control de la condición
+es más manual, for tiene una estructura más organizada con tres partes:
+1. Inicialización → Se ejecuta una sola vez antes del primer ciclo.
+2. Condición → Se evalúa antes de cada iteración; si es true, el ciclo
+continúa.
+3. Actualización → Se ejecuta después de cada iteración para modificar la
+variable de control.
+for (inicialización; condición; actualización)
+{
+// Código que se ejecuta en cada
+iteración mientras la condición sea
+verdadera
+}
+
+
+Sentencia while*
+La sentencia while permite repetir un
+bloque de código mientras una condición
+sea verdadera. Se usa cuando no
+sabemos exactamente cuántas veces se
+repetirá el ciclo, ya que depende de la
+evaluación de la condición.
+while (condición) {
+// Código que se ejecuta mientras
+la condición sea verdadera
+}
+
+Sentencia
+do-while*
+La sentencia do-while es una estructura de control de flujo
+en C que ejecuta un bloque de código al menos una vez y
+luego sigue ejecutándolo mientras una condición sea
+verdadera.
+A diferencia del while, donde primero se evalúa la condición
+antes de ejecutar el código, en do-while el código se
+ejecuta al menos una vez antes de comprobar la condición.
+do {
+// Código a ejecutar al
+menos una vez
+} while (condición);
+
+
+Arreglos Unidimensionales (Vectores)
+Un arreglo (o array) es una colección de
+variables del mismo tipo almacenadas en
+posiciones contiguas de memoria.
+Sirve para guardar muchos datos similares
+bajo un mismo nombre.
+¿Cómo se declara un arreglo?
+tipo nombre[tipo nombre[tamaño];
