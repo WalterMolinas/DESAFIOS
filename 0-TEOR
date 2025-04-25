@@ -136,7 +136,7 @@ menos una vez
 } while (condición);
 
 
-Arreglos Unidimensionales (Vectores)
+Arreglos Unidimensionales (Vectores)*
 Un arreglo (o array) es una colección de
 variables del mismo tipo almacenadas en
 posiciones contiguas de memoria.
@@ -144,6 +144,10 @@ Sirve para guardar muchos datos similares
 bajo un mismo nombre.
 ¿Cómo se declara un arreglo?
 tipo nombre[tipo nombre[tamaño];
+STRINGS*
+Una cadena de caracteres es una secuencia ordenada de longitud finita de
+elementos que pertenecen a un cierto lenguaje formal o alfabeto análogas a
+una fórmula o a una oración.
 
 
 strcpy(destino, origen) – Copiar cadenas
@@ -177,3 +181,37 @@ Compara dos cadenas carácter por carácter.
 strchr(cadena, caracter) – Buscar un
 carácter
 Busca la primera aparición de un carácter en la cadena.
+
+
+ESTRUCTURA DE DATOS:*
+Una estructura de datos es una forma de organizar y
+almacenar datos de manera que puedan ser utilizados
+eficientemente
+
+Estructuras de datos son 2:
+(1-ESTATICA: SE DIVIDE EN 2:
+PRIMITIVAS:
+a)Entero
+b)Real
+c)Booleano
+d)Caracter.
+COMPUESTAS:
+a)Arreglos
+b)Stings
+c)Archivos
+d)Registros)
+(2-DINAMICAS; SE DIVIDE EN 2:
+LINEALES:
+a)Listas
+b)Pilas
+c)Colas.
+NO LINEALES:
+a)Arboles
+b)Grafos
+
+Las ESTRUCTURAS DE DATOS ESTÁTICAS son aquellas en las que
+el tamaño ocupado en memoria se define antes de que el programa se
+ejecute y no puede modificarse dicho tamaño durante la ejecución del
+programa, mientras que una ESTRUCTURA DE DATOS
+DINÁMICA es aquella en la que el tamaño ocupado en memoria
+puede modificarse durante la ejecución del programa.
